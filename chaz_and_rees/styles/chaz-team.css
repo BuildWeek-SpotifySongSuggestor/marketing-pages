@@ -128,4 +128,14 @@ header nav a {
   font-size: 2.5rem;
   margin: 1rem;
 }
+
+section.hero {
+  width: 100%;
+  background-color: grey;
+}
+
+section.hero img {
+  margin: 0 auto;
+  width: 90%;
+}
 /*# sourceMappingURL=chaz-team.css.map */

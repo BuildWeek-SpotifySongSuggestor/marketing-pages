@@ -64,3 +64,12 @@ header {
   }
 }
 
+section.hero {
+  width: 100%;
+  background-color: grey;
+
+  img {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
