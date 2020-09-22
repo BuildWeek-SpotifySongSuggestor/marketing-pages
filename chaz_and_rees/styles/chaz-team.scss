@@ -2,7 +2,7 @@
 @import "./sass-components/_generalReset.scss";
 
 * {
-  border: 1px solid gray;
+  // border: 1px solid gray;
 }
 
 html {
@@ -68,8 +68,24 @@ section.hero {
   width: 100%;
   background-color: grey;
 
+  #container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
   img {
+    display: block;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
+    height: auto;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20rem;
   }
 }

@@ -51,10 +51,6 @@ table {
   border-spacing: 0;
 }
 
-* {
-  border: 1px solid gray;
-}
-
 html {
   font-size: 62.5%;
   font-family: 'Montserrat', sans-serif;
@@ -134,8 +130,25 @@ section.hero {
   background-color: grey;
 }
 
+section.hero #container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 section.hero img {
+  display: block;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
+  height: auto;
+}
+
+section.hero .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 20rem;
 }
 /*# sourceMappingURL=chaz-team.css.map */
