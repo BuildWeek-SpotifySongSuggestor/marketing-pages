@@ -1,2 +1,9 @@
 // IMPORT GENERAL STYLES
-@import "./sass-components/generalReset.scss";
+@import "./sass-components/_generalReset.scss";
+
+
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
