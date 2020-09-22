@@ -51,4 +51,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/*# sourceMappingURL=productInfo.css.map */
+
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+/*# sourceMappingURL=chaz-team.css.map */
