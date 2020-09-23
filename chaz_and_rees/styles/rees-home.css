@@ -239,4 +239,39 @@ footer img {
   height: 5vh;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 1815px) {
+  header div nav {
+    width: 50%;
+  }
+  header div nav a {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .links .squares a {
+    font-size: 2rem;
+    height: 30vh;
+  }
+  .links .rectangle a {
+    font-size: 2rem;
+    height: 10vh;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  p {
+    font-size: 2rem;
+  }
+  .links .squares a {
+    font-size: 1rem;
+    height: 15vh;
+  }
+  .links .rectangle a {
+    font-size: 1rem;
+    height: 5vh;
+    letter-spacing: 1rem;
+  }
+}
 /*# sourceMappingURL=rees-home.css.map */
