@@ -237,6 +237,7 @@ header nav a {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 30%;
+  min-width: 345px;
   margin: 5% auto;
 }
 
