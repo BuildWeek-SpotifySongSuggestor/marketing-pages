@@ -1,2 +1,140 @@
 // IMPORT GENERAL STYLES
 @import "./sass-components/generalReset.scss";
+
+@import "./sass-components/navbar";
+
+* {
+  box-sizing: border-box;
+  border: 1px solid gray;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+  // font-family: 'Rubik', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', sans-serif;
+}
+
+section.hero-title-card {
+  width: 100%;
+  background: url("../assets/pawel-czerwinski-Tyg0rVhOTrE-unsplash.jpg");
+  margin-top: 0;
+  background-repeat: no-repeat;
+  // background-position: center;
+  background-size: cover;
+  height: 100vh;
+  max-height: 1750px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+
+
+  .title-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 60%;
+
+    h2 {
+      display: block;
+      font-size: 18rem;
+      color: white;
+    }
+
+  }
+}
+
+
+
+
+
+// /* Desktop - 1 */
+
+// position: relative;
+// width: 1440px;
+// height: 1024px;
+
+// background: #FFFFFF;
+
+
+// /* Rectangle 2 */
+
+// position: absolute;
+// width: 1440px;
+// height: 966px;
+// left: 0px;
+// top: 58px;
+
+// background: #C4C4C4;
+
+
+// /* Frame 3 */
+
+// position: absolute;
+// width: 1439px;
+// height: 964px;
+// left: 0px;
+// top: 58px;
+
+
+
+// /* Frame 2 */
+
+// position: absolute;
+// width: 1439px;
+// height: 964px;
+// left: 0px;
+// top: 0px;
+
+
+
+// /* pawel-czerwinski-Tyg0rVhOTrE-unsplash 1 */
+
+// position: absolute;
+// width: 964px;
+// height: 1439px;
+// left: 0px;
+// top: 964px;
+
+// transform: rotate(-90deg);
+
+
+// /* Rectangle 1 */
+
+// position: absolute;
+// width: 1440px;
+// height: 58px;
+// left: 0px;
+// top: 0px;
+
+// background: rgba(0, 0, 0, 0.99);
+
+
+// /* About The Product */
+
+// position: absolute;
+// width: 613px;
+// height: 504px;
+// left: 408px;
+// top: 260px;
+
+// font-family: Rubik;
+// font-style: normal;
+// font-weight: bold;
+// font-size: 150px;
+// line-height: 178px;
+
+// color: #FFFFFF;
+
