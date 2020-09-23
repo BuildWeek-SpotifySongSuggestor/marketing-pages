@@ -22,8 +22,6 @@ time, mark, audio, video {
   font-size: 62.5%;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -226,7 +224,6 @@ header nav a {
 }
 
 .team-gallery .team-member {
-  border: 1px solid #37474F;
   border-radius: 10px;
   background-color: #FFFF;
   display: -webkit-box;
@@ -240,7 +237,7 @@ header nav a {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 30%;
-  margin: 1%;
+  margin: 5% auto;
 }
 
 .team-gallery .team-member img {
