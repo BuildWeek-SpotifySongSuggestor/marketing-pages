@@ -123,7 +123,6 @@ header nav a {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 1px solid gray;
 }
 
 html {
@@ -147,9 +146,10 @@ section.hero-title-card {
   background: url("../assets/pawel-czerwinski-Tyg0rVhOTrE-unsplash.jpg");
   margin-top: 0;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 100vh;
-  max-height: 1750px;
+  max-height: 1024px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,5 +182,69 @@ section.hero-title-card .title-container h2 {
   display: block;
   font-size: 18rem;
   color: white;
+}
+
+section.about {
+  width: 100%;
+  height: 60vh;
+  min-height: 600px;
+  max-height: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.about div.overview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.about div.overview p {
+  display: block;
+  line-height: 1.2;
+  text-align: center;
+  width: 40%;
+  max-height: 250px;
+  min-width: 550px;
+  padding: 2%;
+  margin: 1px;
+  font-size: 4rem;
+}
+
+section.about div.overview p span {
+  color: #3AB954;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+}
+
+footer img {
+  display: block;
+  height: 5rem;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=chaz-productInfo.css.map */
