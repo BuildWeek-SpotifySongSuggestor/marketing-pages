@@ -26,6 +26,61 @@ section {
     width: 30%;
     border-radius: 120px;
     margin: 7% 10%;
+    display: flex;
+    flex-flow: column nowrap;
+    h2 {
+        text-align: center;
+        font-size: 4rem;
+        font-family: rubik, sans-serif;
+        margin-top: 10%;
+    }
+    img {
+        width: 40%;
+        height: 7vh;
+        align-self: center;
+        margin-top: 5%;
+    }
+    form{
+        width: 40%;
+        margin: 5%;
+        text-align: center;
+        align-self: center;
+        font-family: montserrat, sans-serif;
+        font-size: 1.2rem;
+        .user{
+            display: block;
+            background-color: #fafbfd;
+            margin: 20% 0;
+            height: 5vh;
+            padding: 1px 0;
+        }
+        .pass {
+            display: block;
+            background-color: #fafbfd;
+            margin: 10% 0;
+            height: 5vh;
+        }
+    }
+    button {
+        border: 0px;
+        border-radius: 40px;
+        background-color: #3AB954;
+        width: 25%;
+        height: 4vh;
+        color: white;
+        font-family: rubik, sans-serif;
+        font-size: 1.3rem;
+        align-self: center;
+    }
+    a {
+        display: block;
+        text-decoration: none;
+        color: #f55252;
+        font-size: 1.2rem;
+        font-family: montserrat, sans-serif;
+        text-align: center;
+        margin-top: 15%;
+    }
 }
 
 
