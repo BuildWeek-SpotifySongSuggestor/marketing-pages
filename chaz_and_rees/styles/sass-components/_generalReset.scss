@@ -16,26 +16,33 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+  box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
+  // uncomment below border rule before deploy
+  border: 0; 
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
+  box-sizing: border-box;
 }
 body {
-	line-height: 1;
+  line-height: 1;
+  // box-sizing: border-box;
+  
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
+  // box-sizing: border-box;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
+  // box-sizing: border-box;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -43,6 +50,7 @@ q:before, q:after {
 	content: none;
 }
 table {
+  // box-sizing: border-box;
 	border-collapse: collapse;
 	border-spacing: 0;
 }
