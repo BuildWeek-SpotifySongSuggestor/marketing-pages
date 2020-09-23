@@ -3,7 +3,7 @@
 
 * {
   box-sizing: border-box;
-  // border: 1px solid gray;
+  border: 1px solid gray;
 }
 
 html {
@@ -99,5 +99,28 @@ header {
     font-size: 4rem;
     width: 50%;
     // margin: 10% auto;
+  }
+}
+
+.team-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .team-member {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30%;
+    margin: 1%; 
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
   }
 }
