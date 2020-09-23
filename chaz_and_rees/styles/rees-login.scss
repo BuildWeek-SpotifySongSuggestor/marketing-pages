@@ -28,6 +28,7 @@ section {
     margin: 7% 10%;
     display: flex;
     flex-flow: column nowrap;
+    align-self: center;
     h2 {
         text-align: center;
         font-size: 4rem;
@@ -83,5 +84,127 @@ section {
     }
 }
 
+@media only screen and (max-width: 1350px) {
+    section {
+        width: 50%;
+    }
+}
 
+@media only screen and (max-width: 1250px) {
+    section {
+        width: 60%;
+    }
+    h1 {
+        width: 35%;
+    }
+}
 
+@media only screen and (max-width: 1125px) {
+    section {
+        width: 60%;
+        margin-right: 5%;
+    }
+    h1 {
+        width: 40%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    section {
+        width: 70%;
+        margin-right: 5%;
+    }
+    h1 {
+        width: 35%;
+        margin-left: 5%;
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    section {
+        width: 70%;
+        margin-right: 5%;
+    }
+    h1 {
+        width: 35%;
+        margin-left: 5%;
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    section {
+        height: 65vh;
+        h2 {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    body {
+        flex-direction: column;
+    }
+    h1 {
+        width: 100%;
+        margin: 5% auto;
+        font-size: 3rem;
+    }
+    section {
+        height: 85vh;
+        width: 60%;
+        margin: 7% auto;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    section {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    h1 {
+        width: 90%;
+    }
+    section {
+        width: 70%;
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 4rem;
+    }
+    section {
+        width: 80%;
+        height: 65vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    section {
+        height: 58vh;
+        width: 80%;
+        img {
+            width: 50%;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    section {
+        h2 {
+            font-size: 2.3rem;
+        }
+        button {
+            width: 30%;
+        }
+        a {
+            margin-top: 6%;
+        }
+    }
+}
