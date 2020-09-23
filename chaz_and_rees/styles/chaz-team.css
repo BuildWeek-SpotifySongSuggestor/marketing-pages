@@ -194,6 +194,8 @@ header nav a {
           flex-flow: row wrap;
   width: 90%;
   margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -218,5 +220,43 @@ header nav a {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.team-gallery .team-member h3 {
+  display: block;
+  text-align: center;
+  font-size: 5rem;
+  padding: 1%;
+}
+
+.team-gallery .team-member .icon {
+  display: block;
+  width: 20%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.team-gallery .team-member h5 {
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.team-gallery .team-member p {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1%;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+}
+
+footer img {
+  display: block;
+  height: 5rem;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=chaz-team.css.map */
