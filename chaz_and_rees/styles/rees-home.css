@@ -149,7 +149,6 @@ header nav a.current {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    min-width: 550px;
   }
   header div.title-logo h1 {
     font-size: 3rem;
@@ -162,6 +161,12 @@ header nav a.current {
   header nav a {
     padding: 2px;
     margin: 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  header div.title-logo {
+    display: none;
   }
 }
 

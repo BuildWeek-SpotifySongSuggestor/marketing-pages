@@ -286,15 +286,38 @@ footer {
   }
 }
 
-@media only screen and (max-width: 552px) {
+@media only screen and (max-width: 554px) {
   section.hero {
-    min-width: 552px;
+    div {
+      h2 {
+        font-size: 12rem;
+      }
+    }
   }
+  // body {
+  //   min-width: 554px;
+  // }
 
-  .about {
+  // section.hero {
+  //   min-width: 554px;
+  // }
+
+  section.about {
+    // min-width: 554px;
     p {
       width: 70%;
       font-size: 2.5rem;
+    }
+  }
+
+  // footer {
+  //   min-width: 554px;
+  // }
+
+}@media only screen and (max-width: 500px) {
+  header {
+    div.title-logo {
+      display: none;
     }
   }
 }

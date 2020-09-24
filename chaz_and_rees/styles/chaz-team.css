@@ -149,7 +149,6 @@ header nav a.current {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    min-width: 550px;
   }
   header div.title-logo h1 {
     font-size: 3rem;
@@ -162,6 +161,12 @@ header nav a.current {
   header nav a {
     padding: 2px;
     margin: 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  header div.title-logo {
+    display: none;
   }
 }
 
@@ -407,13 +412,19 @@ footer img {
   }
 }
 
-@media only screen and (max-width: 552px) {
-  section.hero {
-    min-width: 552px;
+@media only screen and (max-width: 554px) {
+  section.hero div h2 {
+    font-size: 12rem;
   }
-  .about p {
+  section.about p {
     width: 70%;
     font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  header div.title-logo {
+    display: none;
   }
 }
 /*# sourceMappingURL=chaz-team.css.map */
