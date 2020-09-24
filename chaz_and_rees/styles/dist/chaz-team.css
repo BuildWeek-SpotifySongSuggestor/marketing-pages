@@ -178,6 +178,9 @@ h6 {
   font-size: 4rem;
   width: 50%;
 }
+.about p span {
+  color: #3AB954;
+}
 
 .main-content {
   width: 100%;
@@ -247,37 +250,7 @@ h6 {
 .team-gallery .team-member .member-info div.paragraph p {
   padding: 2% 0;
   text-align: center;
-}
-.team-gallery .team-member .icon {
-  display: block;
-  width: 20%;
-  height: auto;
-  margin: 0 auto;
-  margin-top: 2%;
-}
-.team-gallery .team-member h5 {
-  display: block;
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 2%;
-}
-.team-gallery .team-member p {
-  flex: 1;
-  text-align: center;
-  font-size: 1.5rem;
-}
-.team-gallery .team-member div.p {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
-}
-.team-gallery .team-member div.p p {
-  display: block;
-  text-align: center;
-  font-size: 1.5rem;
-  height: 100%;
+  font-size: 5rem;
 }
 
 footer {
@@ -289,4 +262,44 @@ footer img {
   display: block;
   height: 5rem;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1050px) {
+  .about p {
+    width: 60%;
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  section.hero div h2 {
+    font-size: 15rem;
+  }
+
+  .team-gallery {
+    width: 95%;
+  }
+  .team-gallery .team-member {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 734px) {
+  .team-gallery {
+    flex-flow: column nowrap;
+    width: 95%;
+    align-items: center;
+  }
+  .team-gallery .team-member {
+    width: 80%;
+    margin: 7% auto;
+  }
+}
+@media only screen and (max-width: 552px) {
+  section.hero {
+    min-width: 552px;
+  }
+
+  .about p {
+    width: 70%;
+    font-size: 2.5rem;
+  }
 }
