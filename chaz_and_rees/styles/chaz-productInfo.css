@@ -173,7 +173,6 @@ header nav a.current {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 1px solid gray;
 }
 
 html {
