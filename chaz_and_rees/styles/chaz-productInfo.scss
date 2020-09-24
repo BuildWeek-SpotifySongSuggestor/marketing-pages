@@ -102,3 +102,50 @@ footer {
     margin: 0 auto;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  section.hero-title-card {
+    div.title-container {
+      h2 {
+        font-size: 15rem;
+      }
+    }
+  }
+
+  section.about {
+    div.overview {
+      p {
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  section.hero-title-card {
+    div.title-container {
+      h2 {
+        font-size: 12rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 554px) {
+  body {
+    min-width: 554px;
+  }
+
+  section.hero-title-card {
+    min-width: 554px;
+  }
+
+  section.about {
+    min-width: 554px;
+  }
+
+  footer {
+    min-width: 554px;
+  }
+
+}

@@ -127,12 +127,12 @@ header nav a {
 header nav a:hover {
   -webkit-transition: .3s;
   transition: .3s;
-  color: #4DE68B;
+  color: #0fbc4c;
   font-weight: 900;
 }
 
 header nav a.current {
-  border-bottom: 2px solid #3AB954;
+  border-bottom: 2px solid #3ab954;
   font-weight: 600;
 }
 
@@ -291,5 +291,35 @@ footer img {
   display: block;
   height: 5rem;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px) {
+  section.hero-title-card div.title-container h2 {
+    font-size: 15rem;
+  }
+  section.about div.overview p {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  section.hero-title-card div.title-container h2 {
+    font-size: 12rem;
+  }
+}
+
+@media only screen and (max-width: 554px) {
+  body {
+    min-width: 554px;
+  }
+  section.hero-title-card {
+    min-width: 554px;
+  }
+  section.about {
+    min-width: 554px;
+  }
+  footer {
+    min-width: 554px;
+  }
 }
 /*# sourceMappingURL=chaz-productInfo.css.map */

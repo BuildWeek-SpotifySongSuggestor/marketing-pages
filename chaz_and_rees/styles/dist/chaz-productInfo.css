@@ -144,120 +144,68 @@ h6 {
   font-family: "Rubik", sans-serif;
 }
 
-.hero {
+section.hero-title-card {
   width: 100%;
-  background-image: url("../assets/joel-filipe-Wc8k-KryEPM-unsplash.jpg");
+  background: url("../assets/pawel-czerwinski-Tyg0rVhOTrE-unsplash.jpg");
   margin-top: 0;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 100vh;
-  max-height: 1750px;
+  max-height: 1024px;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
-.hero div {
+section.hero-title-card .title-container {
   display: flex;
   align-content: center;
   justify-content: center;
   margin: 0 auto;
   width: 60%;
 }
-.hero div h2 {
+section.hero-title-card .title-container h2 {
   display: block;
   font-size: 18rem;
+  color: white;
 }
 
-.about {
+section.about {
+  width: 100%;
+  height: 60vh;
+  min-height: 600px;
+  max-height: 1200px;
+  margin: 0 auto;
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  margin: 10% 0;
 }
-.about p {
+section.about div.overview {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+section.about div.overview p {
+  display: block;
+  line-height: 1.2;
+  text-align: center;
+  width: 40%;
+  max-height: 250px;
+  min-width: 550px;
+  padding: 2%;
+  margin: 1px;
   font-size: 4rem;
-  width: 50%;
 }
-.about p span {
-  color: #0fbc4c;
-}
-
-.main-content {
-  width: 100%;
-}
-
-.team-gallery {
-  display: flex;
-  flex-flow: row wrap;
-  width: 90%;
-  margin: 0 auto;
-  justify-content: space-evenly;
-  align-items: stretch;
-}
-.team-gallery .team-member {
-  border-radius: 10px;
-  background-color: #FFFF;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  width: 30%;
-  min-width: 345px;
-  margin: 5% 0.1rem;
-}
-.team-gallery .team-member img {
-  display: block;
-  border-radius: 10px;
-  width: 100%;
-  height: auto;
-}
-.team-gallery .team-member .member-info {
-  flex: 1;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  width: 90%;
-  margin: 0 auto;
-}
-.team-gallery .team-member .member-info h3 {
-  display: block;
-  text-align: center;
-  font-size: 3rem;
-  padding: 3%;
-}
-.team-gallery .team-member .member-info div.role {
-  background-color: lightgray;
-  border-radius: 10px;
-  width: 50%;
-  margin: 0 auto;
-  padding: 2% 0;
-}
-.team-gallery .team-member .member-info div.role img.icon {
-  display: block;
-  width: 30%;
-  height: auto;
-  margin: 0 auto;
-}
-.team-gallery .team-member .member-info div.role h5 {
-  display: block;
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 2%;
-}
-.team-gallery .team-member .member-info div.paragraph {
-  flex: 1;
-  padding: 1% 0;
-}
-.team-gallery .team-member .member-info div.paragraph p {
-  padding: 2% 0;
-  text-align: center;
-  font-size: 2rem;
+section.about div.overview p span {
+  color: #3AB954;
 }
 
 footer {
   background-color: black;
   width: 100%;
-  margin-top: 4%;
 }
 footer img {
   display: block;
@@ -265,46 +213,34 @@ footer img {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 1050px) {
-  .about p {
-    width: 60%;
-    font-size: 3rem;
-  }
-
-  div.paragraph p {
-    font-size: 1.5rem;
-  }
-}
 @media only screen and (max-width: 900px) {
-  section.hero div h2 {
+  section.hero-title-card div.title-container h2 {
     font-size: 15rem;
   }
 
-  .team-gallery {
-    width: 95%;
-  }
-  .team-gallery .team-member {
-    width: 40%;
+  section.about div.overview p {
+    font-size: 3rem;
   }
 }
-@media only screen and (max-width: 734px) {
-  .team-gallery {
-    flex-flow: column nowrap;
-    width: 95%;
-    align-items: center;
-  }
-  .team-gallery .team-member {
-    width: 80%;
-    margin: 7% auto;
+@media only screen and (max-width: 750px) {
+  section.hero-title-card div.title-container h2 {
+    font-size: 12rem;
   }
 }
-@media only screen and (max-width: 552px) {
-  section.hero {
-    min-width: 552px;
+@media only screen and (max-width: 554px) {
+  body {
+    min-width: 554px;
   }
 
-  .about p {
-    width: 70%;
-    font-size: 2.5rem;
+  section.hero-title-card {
+    min-width: 554px;
+  }
+
+  section.about {
+    min-width: 554px;
+  }
+
+  footer {
+    min-width: 554px;
   }
 }
