@@ -156,18 +156,20 @@ footer {
 
 @media only screen and (max-width: 500px) {
   section.hero-title-card {
+    overflow: hidden;
     div.title-container {
       h2 {
-        font-size: 10rem;
+        font-size: 8rem;
       }
     }
   }
-  header {
-    div.title-logo {
-      display: none;
-    }
-  }
+  // header {
+  //   div.title-logo {
+  //     display: none;
+  //   }
+  // }
   section.about {
     font-size: 2rem;
+    overflow: auto;
   }
 }
