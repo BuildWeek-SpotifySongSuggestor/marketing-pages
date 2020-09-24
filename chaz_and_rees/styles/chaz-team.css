@@ -127,12 +127,12 @@ header nav a {
 header nav a:hover {
   -webkit-transition: .3s;
   transition: .3s;
-  color: #4DE68B;
+  color: #0fbc4c;
   font-weight: 900;
 }
 
 header nav a.current {
-  border-bottom: 2px solid #3AB954;
+  border-bottom: 2px solid #3ab954;
   font-weight: 600;
 }
 
@@ -246,7 +246,7 @@ h6 {
 }
 
 .about p span {
-  color: #3AB954;
+  color: #0fbc4c;
 }
 
 .main-content {

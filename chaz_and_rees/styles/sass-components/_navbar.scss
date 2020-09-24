@@ -1,3 +1,5 @@
+$lightgreen2: rgb(15, 188, 76);
+$darkgreen: #3ab954;
 
 header {
   width: 100%;
@@ -52,12 +54,12 @@ header {
       
       &:hover {
          transition: .3s;
-        color: #4DE68B;
-        // color: #3AB954;
+        color: $lightgreen2;
         font-weight: 900;
       }
       &.current {
-        border-bottom: 2px solid #3AB954;
+        // border-bottom: 2px solid #3AB954;
+        border-bottom: 2px solid $darkgreen;
         font-weight: 600;
       }
     }
