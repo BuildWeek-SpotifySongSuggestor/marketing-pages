@@ -55,6 +55,115 @@ table {
   border-spacing: 0;
 }
 
+header {
+  width: 100%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header div.title-logo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div.title-logo img {
+  display: inline-block;
+  width: 6rem;
+  height: auto;
+  padding: 0;
+  border-radius: 50%;
+}
+
+header div.title-logo h1 {
+  display: inline-block;
+  color: white;
+  height: 4rem;
+  text-align: center;
+  font-size: 4rem;
+}
+
+header nav {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav a {
+  display: inline-block;
+  padding: 3px 0;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+
+header nav a:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #4DE68B;
+  font-weight: 900;
+}
+
+header nav a.current {
+  border-bottom: 2px solid #3AB954;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1120px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-width: 550px;
+  }
+  header div.title-logo h1 {
+    font-size: 3rem;
+    height: 3rem;
+  }
+  header div.title-logo img {
+    width: 4rem;
+    height: auto;
+  }
+  header nav a {
+    padding: 2px;
+    margin: 2rem;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -76,77 +185,11 @@ h6 {
   font-family: 'Rubik', sans-serif;
 }
 
-header {
-  width: 100%;
-  background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-header div {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-header div img {
-  display: inline-block;
-  width: 6rem;
-  height: 6rem;
-  padding: 0;
-  border-radius: 50%;
-}
-
-header div h1 {
-  display: inline-block;
-  color: white;
-  height: 4rem;
-  text-align: center;
-  font-size: 4rem;
-}
-
-header nav {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-header nav a {
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  font-size: 2.5rem;
-  margin: 1rem;
-}
-
 .hero {
   width: 100%;
   background-image: url("../assets/joel-filipe-Wc8k-KryEPM-unsplash.jpg");
   margin-top: 0;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   height: 100vh;
   max-height: 1750px;
@@ -238,7 +281,7 @@ header nav a {
           justify-content: flex-start;
   width: 30%;
   min-width: 345px;
-  margin: 5% auto;
+  margin: 5% 0.1rem;
 }
 
 .team-gallery .team-member img {

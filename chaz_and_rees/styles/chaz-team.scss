@@ -1,5 +1,6 @@
 // IMPORT GENERAL STYLES
 @import "./sass-components/_generalReset.scss";
+@import "./sass-components/_navbar.scss";
 
 * {
   box-sizing: border-box;
@@ -22,63 +23,12 @@ h6 {
   font-family: 'Rubik', sans-serif;
 }
 
-header {
-  width: 100%;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-
-  div {
-    display: inline-flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    // background-color: black;
-
-    img {
-      display: inline-block;
-      width: 6rem;
-      height: 6rem;
-      // margin: 0 auto;
-      padding: 0;
-      border-radius: 50%;
-      // background-color: black;
-    }
-
-    h1 {
-      display: inline-block;
-      color: white;
-      height: 4rem;
-      text-align: center;
-      font-size: 4rem;
-    }
-
-  }
-
-  nav {
-    display: inline-flex;
-    flex-flow: row nowrap;
-    // justify-content: center;
-    align-items: center;
-
-    a {
-      display: inline-block;
-      text-decoration: none;
-      text-align: center;
-      color: white;
-      // background-color: black;
-      font-size: 2.5rem;
-      margin: 1rem;
-    }
-  }
-}
-
 .hero {
   width: 100%;
   background-image: url("../assets/joel-filipe-Wc8k-KryEPM-unsplash.jpg");
   margin-top: 0;
   background-repeat: no-repeat;
-  background-position: center;
+  // background-position: center;
   background-size: cover;
   height: 100vh;
   max-height: 1750px;
@@ -148,7 +98,7 @@ header {
     width: 30%;
     min-width: 345px;
     // height: 50%;
-    margin: 5% auto;
+    margin: 5% 0.1rem;
 
     img {
       display: block;
