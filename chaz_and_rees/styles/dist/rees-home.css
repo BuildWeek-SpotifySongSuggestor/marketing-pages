@@ -110,7 +110,6 @@ header nav a.current {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    min-width: 550px;
   }
   header div.title-logo h1 {
     font-size: 3rem;
@@ -123,6 +122,30 @@ header nav a.current {
   header nav a {
     padding: 2px;
     margin: 2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  header {
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+  }
+  header div.title-logo {
+    display: none;
+  }
+  header nav {
+    width: 95%;
+    max-width: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: auto;
+  }
+  header nav a {
+    font-size: 2rem;
+    margin: 2px auto;
+    padding: 2px auto;
   }
 }
 * {
@@ -165,7 +188,7 @@ p {
   width: 50%;
 }
 p span {
-  color: #4DE68B;
+  color: #0fbc4c;
 }
 
 .squares {
@@ -212,7 +235,7 @@ p span {
   color: white;
   font-family: rubik, sans-serif;
   font-size: 4rem;
-  background-color: #3AB954;
+  background-color: #0fbc4c;
   height: 20vh;
   width: 56%;
   margin: 2% auto;
@@ -273,5 +296,14 @@ footer img {
     font-size: 2rem;
     height: 10vh;
     width: 50%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  p {
+    width: 80%;
+  }
+
+  .links .squares {
+    height: 60vh;
   }
 }

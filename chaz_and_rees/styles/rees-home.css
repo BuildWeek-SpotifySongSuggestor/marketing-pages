@@ -252,7 +252,7 @@ p {
 }
 
 p span {
-  color: #4DE68B;
+  color: #0fbc4c;
 }
 
 .squares {
@@ -319,7 +319,7 @@ p span {
   color: white;
   font-family: rubik, sans-serif;
   font-size: 4rem;
-  background-color: #3AB954;
+  background-color: #0fbc4c;
   height: 20vh;
   width: 56%;
   margin: 2% auto;
@@ -393,6 +393,15 @@ footer img {
     font-size: 2rem;
     height: 10vh;
     width: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    width: 80%;
+  }
+  .links .squares {
+    height: 60vh;
   }
 }
 /*# sourceMappingURL=rees-home.css.map */

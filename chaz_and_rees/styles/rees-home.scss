@@ -98,7 +98,8 @@ p {
     width: 50%;
 
     span {
-        color: #4DE68B;
+        // color: #4DE68B;
+        color: $lightgreen2;
     }
 }
 
@@ -151,7 +152,8 @@ p {
         color: white;
         font-family: rubik, sans-serif;
         font-size: 4rem;
-        background-color: #3AB954;
+        // background-color: #3AB954;
+        background-color: $lightgreen2;
         height: 20vh;
         width: 56%;
         margin: 2% auto;
@@ -230,6 +232,17 @@ footer {
                 height: 10vh;
                 width: 50%;
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+        width: 80%
+    }
+    .links {
+        .squares {
+            height: 60vh;
         }
     }
 }

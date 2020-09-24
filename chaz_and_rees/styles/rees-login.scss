@@ -85,9 +85,16 @@ section {
     }
 }
 
+@media only screen and (max-width: 1600px) {
+    section {
+        height: 65vh;
+    }
+}
+
 @media only screen and (max-width: 1350px) {
     section {
         width: 50%;
+        height: 62vh;
     }
 }
 
@@ -137,7 +144,7 @@ section {
 
 @media only screen and (max-width: 830px) {
     section {
-        height: 65vh;
+        height: 55vh;
         h2 {
             font-size: 3rem;
         }
@@ -151,10 +158,10 @@ section {
     h1 {
         width: 100%;
         margin: 5% auto;
-        font-size: 3rem;
+        font-size: 5rem;
     }
     section {
-        height: 85vh;
+        height: 60vh;
         width: 60%;
         margin: 7% auto;
     }
@@ -171,41 +178,63 @@ section {
         width: 90%;
     }
     section {
-        width: 70%;
-        height: 80vh;
+        width: 80%;
+        height: 60vh;
     }
 }
 
 @media only screen and (max-width: 500px) {
     h1 {
-        font-size: 4rem;
+        font-size: 5rem;
     }
     section {
         width: 80%;
-        height: 65vh;
+        height: 60vh;
     }
+}
+
+@media only screen and (max-width: 414px) {
+    h1 {
+        font-size: 3rem;
+    }
+    section {
+        height: 70vh;
+        button {
+            width: 40%;
+            height: 6vh;
+        }
+    }
+    
 }
 
 @media only screen and (max-width: 400px) {
     section {
-        height: 58vh;
+        height: 65vh;
         width: 80%;
         img {
             width: 50%;
+        }
+        a {
+            margin-top: 7%;
         }
     }
 }
 
 @media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 3rem;
+    }
     section {
+        height: 70vh;
         h2 {
             font-size: 2.3rem;
         }
         button {
-            width: 30%;
+            width: 40%;
+            height: 6vh;
         }
         a {
-            margin-top: 6%;
+            margin-top: 9%;
         }
     }
 }
