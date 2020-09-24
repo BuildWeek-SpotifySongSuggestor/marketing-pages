@@ -1,6 +1,6 @@
-/* 
+/*
   GENERAL RESESETS
-   http://meyerweb.com/eric/tools/css/reset/ 
+   http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -14,8 +14,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,14 +24,16 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
+	background-color: rgb(60, 60, 202);
 }
 ol, ul {
 	list-style: none;
@@ -49,9 +51,277 @@ table {
 	border-spacing: 0;
 }
 
+h1, h2{
+  font-family: 'Grandstander', cursive;
+}
 
-/*
-FONTS
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Rubik', sans-serif;
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
 */
+/* this is where the nav design is located */
+header{
+	background-color: black;
+	height: 10vh
+}
+
+header nav h2{
+	color: #1ED760;
+	font-size: 2.5rem;
+	padding-top: .5%;
+	padding-right: 50%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+	text-align: center;
+	padding: 1.25% 0 0 0;
+}
+
+header nav a{
+	text-decoration: none;
+	border: 2px solid #1ED760;
+    border-radius: 20px;
+	padding: .7%;
+	color: #1ED760;
+	background: rgb(60, 60, 202);
+}
+/* this is where the design for the top pictures is */
+.top-picture-container{
+	display: flex;
+	justify-content: space-between;
+	margin: 1%;
+}
+/* this is where the design for the main catch phrase is */
+.catch-phrase{
+	font-size: 10rem;
+	text-align: center;
+	padding: 2%;
+	color: #1ED760;
+}
+/* this is where the design for the bottom pictures and H2 is */
+.bottom-picture-container{
+	display: flex;
+	justify-content: space-between;
+	margin: 1%;
+}
+
+.bottom-picture-container h2{
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+	color: #1ED760;
+}
+
+/* this section contains the sign-up and log-in buttons */
+
+.sign-up-log-in-container{
+	display: flex;
+	justify-content: center;
+	padding: 5%;
+}
+.sign-up-log-in-container a{
+	font-size: 2rem;
+	text-decoration: none;
+	color:#1ED760;
+	padding: 0 5%;
+}
+/*this section contains the footer nav and social media buttons*/
+footer{
+	background-color: black;
+	height: 10vh;
+	text-align: end;
+}
+
+footer nav{
+	padding: 2.1% 4% 0 0;
+}
+
+footer nav a{
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid #1ED760;
+    border-radius: 20px;
+	color: #1ED760;
+	background: rgb(60, 60, 202);
+	padding: .7%;
+}
+
+/*this section contains the screen size smoothness */
+@media(max-width: 1900px){
+	.bottom-picture-container h2{
+		display: flex;
+		justify-content: center;
+		font-size: 1.7rem;
+		color: #1ED760;
+	}
+}
+
+@media(max-width: 1780px){
+	.bottom-picture-container h2{
+		display: flex;
+		justify-content: center;
+		font-size: 1.3rem;
+		color: #1ED760;
+	}
+	.catch-phrase{
+		font-size: 8rem;
+		text-align: center;
+		padding: 2%;
+		color: #1ED760;
+	}
+}
+
+@media(max-width: 1660px){
+	.top-picture-container img{
+		width: 30%;
+	}
+	.bottom-picture-container img{
+		width: 30%;
+	}
+}
+
+@media(max-width: 1600px){
+	header nav{
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+		padding: 1.8% 4% 0 0;
+	}
+
+	.top-picture-container img{
+		width: 30%;
+	}
+	.bottom-picture-container img{
+		width: 30%;
+	}
+	footer nav{
+		padding: 2.5% 4% 0 0;
+	}
+}
+
+@media(max-width: 1220px){
+	header nav{
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+		padding: 2.5% 4% 0 0;
+	}
+
+	header nav h2{
+		color: #1ED760;
+		font-size: 2.5rem;
+		padding-top: .2%;
+		padding-right: 10%;
+	}
+}
+
+@media(max-width: 1030px){
+	header nav{
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+		padding: 3%;
+	}
+
+	.bottom-picture-container h2{
+		display: flex;
+		font-size: 1.1rem;
+		color: #1ED760;
+	}
+	.catch-phrase{
+		font-size: 6rem;
+		text-align: center;
+		padding: 2%;
+		color: #1ED760;
+	}
+
+	footer nav{
+		padding: 4% 4% 0 0;
+	}
+}
+
+@media(max-width: 860px){
+	.bottom-picture-container h2{
+		display: flex;
+		font-size: 1rem;
+		color: #1ED760;
+	}
+	.catch-phrase{
+		font-size: 4rem;
+		text-align: center;
+		padding: 2%;
+		color: #1ED760;
+	}
+}
+
+@media(max-width: 760px){
+	header nav{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 1.25% 0 0 0;
+	}
+
+	header nav h2{
+		color: #1ED760;
+		font-size: 2.3rem;
+		padding: 1%;
+
+	}
+
+	header nav{
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+		padding: 4% 0 0 0;
+	}
+
+	header nav a{
+		text-decoration: none;
+		border: 2px solid #1ED760;
+		border-radius: 20px;
+		padding: .7%;
+		color: #1ED760;
+		background: rgb(60, 60, 202);
+	}
+
+	.top-picture-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 2%;
+	}
+
+	.top-picture-container img{
+		width: 100%;
+		margin: 1% 0;
+		}
+
+
+	.bottom-picture-container img{
+		width: 100%;
+		}
+
+	.bottom-picture-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 2%;
+	}
+
+	.bottom-picture-container h2{
+		display: flex;
+		font-size: 1.5rem;
+		color: #1ED760;
+		margin: 2%;
+	}
+
+	footer nav{
+		padding: 8% 10% 0 0;
+		display: flex;
+		justify-content: center;
+	}
+
+}
