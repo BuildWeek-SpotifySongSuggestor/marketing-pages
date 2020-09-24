@@ -325,7 +325,7 @@ footer img {
   }
 }
 
-@media only screen and (max-width: 785px) {
+@media only screen and (max-width: 985px) {
   .links .squares a {
     font-size: 2rem;
     height: 30vh;
@@ -338,15 +338,26 @@ footer img {
 
 @media only screen and (max-width: 785px) {
   p {
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+  .links .squares {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .links .squares a {
-    font-size: 1rem;
-    height: 15vh;
+    font-size: 2.5rem;
+    height: 40vh;
+    width: 50%;
   }
   .links .rectangle a {
-    font-size: 1rem;
-    height: 5vh;
+    font-size: 2rem;
+    height: 10vh;
+    width: 50%;
   }
 }
 /*# sourceMappingURL=rees-home.css.map */
