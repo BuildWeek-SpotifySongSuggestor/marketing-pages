@@ -148,6 +148,7 @@ header nav a.current {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 100%;
     min-width: 550px;
   }
   header div.title-logo h1 {
