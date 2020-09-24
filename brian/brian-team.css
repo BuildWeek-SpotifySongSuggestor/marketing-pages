@@ -1,6 +1,6 @@
-/* 
+/*
   GENERAL RESESETS
-   http://meyerweb.com/eric/tools/css/reset/ 
+   http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -14,8 +14,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -26,7 +26,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -49,12 +49,142 @@ table {
 	border-spacing: 0;
 }
 
+.meet-the-team-container{
+	display: flex;
+	margin: 2%;
+}
 
+.team-member-1{
+	align-items: center;
+	margin-bottom: 3%;
+}
 
+.team-member-1 h2{
+	font-size: 2rem;
+	padding: 2%;
+}
 
+.team-member-1 p{
+	font-size: 1rem;
+	padding: 2%;
+}
 
-/*
-FONTS
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Rubik', sans-serif;
-*/
+.team-member-2{
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.team-member-2 h2{
+	font-size: 2rem;
+	padding: 2%;
+}
+
+.team-member-2 p{
+	font-size: 1rem;
+	padding: 2%;
+}
+
+.team-member-3{
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.team-member-3 h2{
+	font-size: 2rem;
+	padding: 2%;
+}
+
+.team-member-3 p{
+	font-size: 1rem;
+	padding: 2%;
+}
+
+.team-member-4{
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.team-member-4 h2{
+	font-size: 2rem;
+	padding: 2%;
+}
+
+.team-member-4 p{
+	font-size: 1rem;
+	padding: 2%;
+}
+
+.team-member-5{
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.team-member-5 h2{
+	font-size: 2rem;
+	padding: 2%;
+}
+
+.team-member-5 p{
+	font-size: 1rem;
+	padding: 2%;
+}
+
+.team-member-6{
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.team-member-6 h2{
+	font-size: 2rem;
+	padding: 2%;
+}
+
+.team-member-6 p{
+	font-size: 1rem;
+	padding: 2%;
+}
+
+.team-member-7{
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.team-member-7 h2{
+	font-size: 2rem;
+	padding: 2%;
+}
+
+.team-member-7 p{
+	font-size: 1rem;
+	padding: 2%;
+}
+
+.team-member-8{
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.team-member-8 h2{
+	font-size: 2rem;
+	padding: 2%;
+}
+
+.team-member-8 p{
+	font-size: 1rem;
+	padding: 2%;
+}
+
+.team-member-9{
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.team-member-9 h2{
+	font-size: 2rem;
+	padding: 2%;
+}
+
+.team-member-9 p{
+	font-size: 1rem;
+	padding: 2%;
+}
