@@ -55,6 +55,11 @@ h1, h2{
   font-family: 'Grandstander', cursive;
 }
 
+/* hover affets here*/
+a:hover{
+	font-weight: bold;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -68,7 +73,7 @@ header{
 header nav h2{
 	color: #1ED760;
 	font-size: 2.5rem;
-	padding-top: .5%;
+	padding-top: .1%;
 	padding-right: 50%;
 }
 
@@ -76,12 +81,11 @@ header nav{
     display: flex;
     justify-content: space-around;
 	text-align: center;
-	padding: 1.25% 0 0 0;
+	padding-top: 1.8%;
 }
 
 header nav a{
 	text-decoration: none;
-	padding: .7%;
 	color: #1ED760;
 	font-size: 2rem;
 
@@ -134,18 +138,17 @@ footer{
 }
 
 footer nav{
-	padding: 2.1% 4% 0 0;
+	padding: 1.7% 4% 0 0;
 }
 
 footer nav a{
 	text-align: center;
 	text-decoration: none;
 	color: #1ED760;
-	padding: .7%;
 	font-size: 2rem;
 }
 
-/*this section contains the screen size smoothness */
+/*this section contains the screen responsiveness code */
 @media(max-width: 1900px){
 	.bottom-picture-container h2{
 		display: flex;
@@ -171,6 +174,13 @@ footer nav a{
 }
 
 @media(max-width: 1660px){
+	header nav h2{
+		color: #1ED760;
+		font-size: 2.5rem;
+		padding-top: .9%;
+		padding-right: 30%;
+	}
+
 	.top-picture-container img{
 		width: 30%;
 	}
@@ -200,7 +210,7 @@ footer nav a{
 
 @media(max-width: 1420px){
 	header nav a{
-		font-size: 1.2rem;
+		font-size: 2rem;
 	}
 }
 
@@ -213,14 +223,14 @@ footer nav a{
 	}
 
 	header nav a{
-		font-size: 1rem;
+		font-size: 2rem;
 	}
 
 	header nav h2{
 		color: #1ED760;
 		font-size: 2.5rem;
 		padding-top: .2%;
-		padding-right: 10%;
+		padding-right: 20%;
 	}
 }
 
@@ -249,7 +259,19 @@ footer nav a{
 	}
 }
 
-@media(max-width: 860px){
+@media(max-width: 890px){
+	header nav{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 1.25% 0 0 0;
+	}
+
+	header nav h2{
+		text-align: center;
+		padding: .3%;
+	}
+
 	.bottom-picture-container h2{
 		display: flex;
 		font-size: 1rem;
@@ -260,6 +282,10 @@ footer nav a{
 		text-align: center;
 		padding: 2%;
 		color: #1ED760;
+	}
+
+	footer nav{
+		padding: 3.1%;
 	}
 }
 
@@ -275,7 +301,6 @@ footer nav a{
 		color: #1ED760;
 		font-size: 2.3rem;
 		padding: 1%;
-
 	}
 
 	header nav{
