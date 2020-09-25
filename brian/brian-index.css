@@ -81,11 +81,10 @@ header nav{
 
 header nav a{
 	text-decoration: none;
-	border: 2px solid #1ED760;
-    border-radius: 20px;
 	padding: .7%;
 	color: #1ED760;
-	background: rgb(60, 60, 202);
+	font-size: 2rem;
+
 }
 /* this is where the design for the top pictures is */
 .top-picture-container{
@@ -131,7 +130,7 @@ header nav a{
 footer{
 	background-color: black;
 	height: 10vh;
-	text-align: end;
+	text-align: center;
 }
 
 footer nav{
@@ -141,11 +140,9 @@ footer nav{
 footer nav a{
 	text-align: center;
 	text-decoration: none;
-	border: 2px solid #1ED760;
-    border-radius: 20px;
 	color: #1ED760;
-	background: rgb(60, 60, 202);
 	padding: .7%;
+	font-size: 2rem;
 }
 
 /*this section contains the screen size smoothness */
@@ -201,12 +198,22 @@ footer nav a{
 	}
 }
 
+@media(max-width: 1420px){
+	header nav a{
+		font-size: 1.2rem;
+	}
+}
+
 @media(max-width: 1220px){
 	header nav{
 		display: flex;
 		justify-content: space-around;
 		text-align: center;
 		padding: 2.5% 4% 0 0;
+	}
+
+	header nav a{
+		font-size: 1rem;
 	}
 
 	header nav h2{
@@ -275,16 +282,13 @@ footer nav a{
 		display: flex;
 		justify-content: space-around;
 		text-align: center;
-		padding: 4% 0 0 0;
 	}
 
 	header nav a{
 		text-decoration: none;
-		border: 2px solid #1ED760;
-		border-radius: 20px;
-		padding: .7%;
+		padding-top: .4%;
 		color: #1ED760;
-		background: rgb(60, 60, 202);
+		font-size: 2rem;
 	}
 
 	.top-picture-container{
@@ -319,7 +323,7 @@ footer nav a{
 	}
 
 	footer nav{
-		padding: 8% 10% 0 0;
+		padding: 6% 10% 0 0;
 		display: flex;
 		justify-content: center;
 	}

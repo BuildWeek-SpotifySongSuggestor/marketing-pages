@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: rgb(60, 60, 202);
 }
 ol, ul {
 	list-style: none;
@@ -48,143 +49,542 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* this is where my font design is */
+h1, h2, h3{
+	font-family: 'Grandstander', cursive;
+	line-height: 1.2;
+}
 
+p{
+	font-family: 'Quicksand', sans-serif;
+	color: #18221c;
+	font-weight: bold;
+}
+
+/* this is where the nav design is located */
+header{
+	background-color: black;
+	height: 10vh;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+	text-align: center;
+	padding: 1.25% 0 0 0;
+}
+header nav h1{
+	color: #1ED760;
+	font-size: 2.5rem;
+	padding-top: .5%;
+	padding-right: 50%;
+}
+
+header nav a{
+	text-decoration: none;
+	color: #1ED760;
+	font-size: 1.5rem;
+	padding-top: .8%;
+}
+
+/* this is where the about the team section is */
+.lambda-project-text h2{
+	text-align: center;
+	font-size: 5rem;
+	padding: 2% 20% 1% 20%;
+	color: #1ED760;
+}
+
+.lambda-project-text h3{
+	text-align: center;
+	font-size: 2rem;
+	padding: 2% 20% 5% 20%;
+	color: #1ED760;
+}
+
+/* this is where the team pictures and bios are */
 .meet-the-team-container{
 	display: flex;
-	margin: 2%;
+	flex-flow: row wrap;
+	margin: 1%;
 }
 
 .team-member-1{
-	align-items: center;
-	margin-bottom: 3%;
+	margin: 1.5%;
+	width: 30%;
+}
+
+.team-member-1 img{
+	border-radius: 20px;
 }
 
 .team-member-1 h2{
-	font-size: 2rem;
-	padding: 2%;
+	font-size: 2.5rem;
+	padding: 1%;
 }
 
 .team-member-1 p{
 	font-size: 1rem;
-	padding: 2%;
+	padding: 1%;
+	text-align: center;
+	padding-right: 10%;
 }
 
 .team-member-2{
-	align-items: center;
-	margin-bottom: 3%;
+	margin: 1.5%;
+	width: 30%;
+}
+
+.team-member-2 img{
+	border-radius: 20px;
 }
 
 .team-member-2 h2{
-	font-size: 2rem;
-	padding: 2%;
+	font-size: 2.5rem;
+	padding: 1%;
 }
 
 .team-member-2 p{
 	font-size: 1rem;
-	padding: 2%;
+	padding: 1%;
+	text-align: center;
+	padding-right: 10%;
 }
 
 .team-member-3{
-	align-items: center;
-	margin-bottom: 3%;
+	margin: 1.5%;
+	width: 30%;
+}
+
+.team-member-3 img{
+	border-radius: 20px;
 }
 
 .team-member-3 h2{
-	font-size: 2rem;
-	padding: 2%;
+	font-size: 2.5rem;
+	padding: 1%;
 }
 
 .team-member-3 p{
 	font-size: 1rem;
-	padding: 2%;
+	padding: 1%;
+	text-align: center;
+	padding-right: 10%;
 }
 
 .team-member-4{
-	align-items: center;
-	margin-bottom: 3%;
+	margin: 1.5%;
+	width: 30%;
+}
+
+.team-member-4 img{
+	border-radius: 20px;
 }
 
 .team-member-4 h2{
-	font-size: 2rem;
-	padding: 2%;
+	font-size: 2.5rem;
+	padding: 1%;
 }
 
 .team-member-4 p{
 	font-size: 1rem;
-	padding: 2%;
+	padding: 1%;
+	text-align: center;
+	padding-right: 10%;
 }
 
 .team-member-5{
-	align-items: center;
-	margin-bottom: 3%;
+	margin: 1.5%;
+	width: 30%;
+}
+
+.team-member-5 img{
+	border-radius: 20px;
 }
 
 .team-member-5 h2{
-	font-size: 2rem;
-	padding: 2%;
+	font-size: 2.5rem;
+	padding: 1%;
 }
 
 .team-member-5 p{
 	font-size: 1rem;
-	padding: 2%;
+	padding: 1%;
+	text-align: center;
+	padding-right: 10%;
 }
 
 .team-member-6{
-	align-items: center;
-	margin-bottom: 3%;
+	margin: 1.5%;
+	width: 30%;
+}
+
+.team-member-6 img{
+	border-radius: 20px;
 }
 
 .team-member-6 h2{
-	font-size: 2rem;
-	padding: 2%;
+	font-size: 2.5rem;
+	padding: 1%;
 }
 
 .team-member-6 p{
 	font-size: 1rem;
-	padding: 2%;
+	padding: 1%;
+	text-align: center;
+	padding-right: 10%;
 }
 
 .team-member-7{
-	align-items: center;
-	margin-bottom: 3%;
+	margin: 1.5%;
+	width: 30%;
+}
+
+.team-member-7 img{
+	border-radius: 20px;
 }
 
 .team-member-7 h2{
-	font-size: 2rem;
-	padding: 2%;
+	font-size: 2.5rem;
+	padding: 1%;
 }
 
 .team-member-7 p{
 	font-size: 1rem;
-	padding: 2%;
+	padding: 1%;
+	text-align: center;
+	padding-right: 10%;
 }
 
 .team-member-8{
-	align-items: center;
-	margin-bottom: 3%;
+	margin: 1.5%;
+	width: 30%;
+}
+
+.team-member-8 img{
+	border-radius: 20px;
 }
 
 .team-member-8 h2{
-	font-size: 2rem;
-	padding: 2%;
+	font-size: 2.5rem;
+	padding: 1%;
 }
 
 .team-member-8 p{
 	font-size: 1rem;
-	padding: 2%;
+	padding: 1%;
+	text-align: center;
+	padding-right: 10%;
 }
 
 .team-member-9{
-	align-items: center;
-	margin-bottom: 3%;
+	margin: 1.5%;
+	width: 30%;
+}
+
+.team-member-9 img{
+	border-radius: 20px;
 }
 
 .team-member-9 h2{
-	font-size: 2rem;
-	padding: 2%;
+	font-size: 2.5rem;
+	padding: 1%;
 }
 
 .team-member-9 p{
 	font-size: 1rem;
-	padding: 2%;
+	padding: 1%;
+	text-align: center;
+	padding-right: 10%;
+}
+
+.team-member-10{
+	margin: 1.5%;
+	width: 30%;
+}
+
+.team-member-10 img{
+	border-radius: 20px;
+}
+
+.team-member-10 h2{
+	font-size: 2.5rem;
+	padding: 1%;
+}
+
+.team-member-10 p{
+	font-size: 1rem;
+	padding: 1%;
+	text-align: center;
+	padding-right: 10%;
+}
+
+.team-member-11{
+	margin: 1.5%;
+	width: 30%;
+}
+
+.team-member-11 img{
+	border-radius: 20px;
+}
+
+.team-member-11 h2{
+	font-size: 2.5rem;
+	padding: 1%;
+}
+
+.team-member-11 p{
+	font-size: 1rem;
+	padding: 1%;
+	text-align: center;
+	padding-right: 10%;
+}
+
+.team-member-12{
+	margin: 1.5%;
+	width: 30%;
+}
+
+.team-member-12 img{
+	border-radius: 20px;
+}
+
+.team-member-12 h2{
+	font-size: 2.5rem;
+	padding: 1%;
+}
+
+.team-member-12 p{
+	font-size: 1rem;
+	padding: 1%;
+	text-align: center;
+	padding-right: 10%;
+}
+/* this is where the footer nav design is located */
+footer{
+	background-color: black;
+	height: 10vh;
+	text-align: center;
+}
+
+footer nav{
+	padding: 2.1% 4% 0 0;
+}
+
+footer nav a{
+	text-align: center;
+	text-decoration: none;
+	color: #1ED760;
+	padding: .7%;
+	font-size: 1.5rem;
+}
+
+/*this section contains the screen responsiveness */
+@media(max-width: 1700px){
+	header nav{
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+		padding: 1.5% 4% 0 0;
+	}
+
+	footer nav{
+		padding: 2.5% 0 0 0;
+	}
+}
+@media(max-width: 1620px){
+	header nav{
+		padding-top: 1.7%;
+	}
+
+	header nav h1{
+		padding-right: 20%;
+	}
+
+	.lambda-project-text h2{
+		text-align: center;
+		font-size: 3rem;
+		padding: 2% 20% 1% 20%;
+	}
+	.meet-the-team-container{
+		display: flex;
+		flex-flow: row wrap;
+		margin: 5%;
+	}
+
+	.meet-the-team-container img{
+		width: 90%;
+	}
+
+	.meet-the-team-container h2{
+		font-size: 2rem;
+	}
+}
+
+@media(max-width: 1100px){
+	header nav{
+		padding-top: 2.4%;
+	}
+
+	header nav h1{
+		color: #1ED760;
+		font-size: 2rem;
+		padding-right: 50%;
+	}
+
+	.lambda-project-text h3{
+		text-align: center;
+		font-size: 1.5rem;
+		padding: 2% 20% 5% 20%;
+		color: #1ED760;
+	}
+
+	.meet-the-team-container h2{
+		font-size: 1.5rem;
+	}
+
+	footer nav{
+		padding-top: 3.2%
+	}
+}
+
+@media(max-width: 905px){
+	header nav{
+		padding-top: 3.7%;
+	}
+
+	header nav h1{
+		color: #1ED760;
+		font-size: 2rem;
+		padding-right: 20%;
+	}
+
+	.lambda-project-text h3{
+		text-align: center;
+		font-size: 1.3rem;
+		padding: 2% 20% 5% 20%;
+		color: #1ED760;
+	}
+
+	footer nav{
+		padding-top: 3.2%
+	}
+}
+@media(max-width: 650px){
+	header nav{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 3%;
+	}
+
+	header nav h1{
+		color: #1ED760;
+		font-size: 2.5rem;
+		text-align: center;
+		padding: 0;
+	}
+
+	.lambda-project-text h2{
+		text-align: center;
+		font-size: 2.5rem;
+		padding: 2% 20% 1% 20%;
+	}
+
+	.lambda-project-text h3{
+		text-align: center;
+		font-size: 1.25rem;
+		padding: 2% 2% ;
+		width: 100;
+	}
+	.meet-the-team-container{
+		display: flex;
+		flex-direction: column;
+		margin: 5%;
+	}
+
+	.meet-the-team-container h2{
+		font-size: 2.7rem;
+	}
+
+	.meet-the-team-container p{
+		text-align: left;
+	}
+	.team-member-1{
+		margin: 1.5%;
+		width: 100%;
+	}
+
+	.team-member-2{
+		margin: 1.5%;
+		width: 100%;
+	}
+
+	.team-member-3{
+		margin: 1.5%;
+		width: 100%;
+	}
+
+	.team-member-4{
+		margin: 1.5%;
+		width: 100%;
+	}
+
+	.team-member-5{
+		margin: 1.5%;
+		width: 100%;
+	}
+
+	.team-member-6{
+		margin: 1.5%;
+		width: 100%;
+	}
+
+	.team-member-7{
+		margin: 1.5%;
+		width: 100%;
+	}
+
+	.team-member-8{
+		margin: 1.5%;
+		width: 100%;
+	}
+
+	.team-member-9{
+		margin: 1.5%;
+		width: 100%;
+	}
+
+	.team-member-10{
+		margin: 1.5%;
+		width: 100%;
+	}
+
+	.team-member-11{
+		margin: 1.5%;
+		width: 100%;
+	}
+
+	.team-member-12{
+		margin: 1.5%;
+		width: 100%;
+	}
+	footer nav{
+		padding: 6% 4% 0 0;
+	}
+}
+
+@media(max-width: 500px){
+	.lambda-project-text h2{
+		font-size: 2.3rem;
+	}
+
+	header nav h1{
+		font-size: 2.3rem;
+		padding-top: 1.5%;
+	}
+
+	header nav a{
+		padding-top: .5%;
+	}
 }
